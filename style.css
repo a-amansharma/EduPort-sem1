@@ -47,8 +47,6 @@
 
 .btn-group {
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 50px;
 }
 
 .card {
@@ -132,6 +130,9 @@ footer {
     gap: 10px;
     margin-bottom: 30px;
     margin-top: 50px;
+    position: sticky;
+    bottom: 0px;
+    background-color: white;
 }
 
 .footer-brand-name img {
@@ -169,5 +170,9 @@ footer {
 .footer-icons span {
     background-color: rgba(0, 0, 128, 0.6);
     color: white;
+}
+.btn-group {
+    width: 60%;
+    margin-left: 100px;
 }
 }
