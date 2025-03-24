@@ -1,0 +1,172 @@
+.logo {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.icon {
+    width: 200px;
+    margin-right: 20px;
+
+}
+
+.content {
+    font-size: 5rem;
+    padding-left: 15px;
+}
+
+.myCard {
+    padding: 5px;
+    align-items: center;
+
+    width: 250px;
+    background-color: rgba(255, 165, 0, 0.4);
+    border-radius: 10px;
+}
+
+.card2 {
+    background-color: rgba(128, 0, 128, 0.4);
+}
+
+.card3 {
+    background-color: blue;
+    background-color: rgba(0, 0, 128, 0.3);
+}
+
+.card4 {
+    background-color: rgba(0, 128, 0, 0.4);
+}
+
+.main-head {
+    font-size: 3rem;
+    margin-top: 70px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-group {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.bi-star-fill,
+.bi-star-half {
+    color: orange;
+}
+
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 4fr 2.5fr 2.5fr 2.5fr 2.5fr;
+    gap: 20px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.footer-brand-name img {
+    width: 200px;
+    margin-top: 5px;
+}
+
+.footer-brand-name aside {
+    padding-left: 0;
+    display: flex;
+}
+
+.data {
+    padding-bottom: 9px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.data~span {
+    display: block;
+    font-size: 1rem;
+    color: hwb(0 41% 47%);
+    padding: px;
+}
+
+.footer-icons {
+    font-size: 1.5rem;
+    margin: 10px;
+
+}
+
+.footer-icons span {
+    background-color: rgba(0, 0, 128, 0.6);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@media(max-width:600px) {
+    .menu-bar ,.boxx{
+        display: none;
+    }
+
+    .bi-ui-radios-grid {
+        display: none;
+    }
+
+    header {
+        display: block;
+    }
+
+
+    footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 4fr 2.5fr 2.5fr 2.5fr 2.5fr;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.footer-brand-name img {
+    width: 100px;
+    margin-top: 5px;
+}
+
+.footer-brand-name aside {
+    padding-left: 0;
+    display: flex;
+}
+
+.data {
+    padding-bottom: 9px;
+    font-size: 0.8rem;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+
+}
+
+.data~span {
+    display: block;
+    font-size: 0.5rem;
+    color: hwb(0 41% 47%);
+}
+
+.footer-icons {
+    font-size: 0.9rem;
+    margin: 0px;
+   
+    margin-top: 10px;
+}
+
+.footer-icons span {
+    background-color: rgba(0, 0, 128, 0.6);
+    color: white;
+}
+}
