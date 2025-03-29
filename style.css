@@ -50,7 +50,9 @@
 }
 
 .card {
-    margin: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
 }
 
 .bi-star-fill,
